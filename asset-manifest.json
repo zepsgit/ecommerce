@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zepsgit/ecommerce/static/css/main.5621abba.chunk.css",
+    "main.js": "/zepsgit/ecommerce/static/js/main.c3959010.chunk.js",
+    "main.js.map": "/zepsgit/ecommerce/static/js/main.c3959010.chunk.js.map",
+    "runtime-main.js": "/zepsgit/ecommerce/static/js/runtime-main.a3e46e9e.js",
+    "runtime-main.js.map": "/zepsgit/ecommerce/static/js/runtime-main.a3e46e9e.js.map",
+    "static/js/2.293ce315.chunk.js": "/zepsgit/ecommerce/static/js/2.293ce315.chunk.js",
+    "static/js/2.293ce315.chunk.js.map": "/zepsgit/ecommerce/static/js/2.293ce315.chunk.js.map",
+    "static/js/3.d198353b.chunk.js": "/zepsgit/ecommerce/static/js/3.d198353b.chunk.js",
+    "static/js/3.d198353b.chunk.js.map": "/zepsgit/ecommerce/static/js/3.d198353b.chunk.js.map",
+    "index.html": "/zepsgit/ecommerce/index.html",
+    "static/css/main.5621abba.chunk.css.map": "/zepsgit/ecommerce/static/css/main.5621abba.chunk.css.map",
+    "static/js/2.293ce315.chunk.js.LICENSE.txt": "/zepsgit/ecommerce/static/js/2.293ce315.chunk.js.LICENSE.txt",
+    "static/media/hats.5cf7dc58.jpg": "/zepsgit/ecommerce/static/media/hats.5cf7dc58.jpg",
+    "static/media/jacket.03c0e2de.jpg": "/zepsgit/ecommerce/static/media/jacket.03c0e2de.jpg",
+    "static/media/men.a18f1555.jpg": "/zepsgit/ecommerce/static/media/men.a18f1555.jpg",
+    "static/media/sneaker.85a37b26.jpg": "/zepsgit/ecommerce/static/media/sneaker.85a37b26.jpg",
+    "static/media/women.89a01207.jpg": "/zepsgit/ecommerce/static/media/women.89a01207.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3e46e9e.js",
+    "static/js/2.293ce315.chunk.js",
+    "static/css/main.5621abba.chunk.css",
+    "static/js/main.c3959010.chunk.js"
+  ]
+}
