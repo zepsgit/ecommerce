@@ -7,6 +7,7 @@ import Header from './components/header/header.component';
 import SignInSignUp from './components/sign-in-sign-up/sign-in-sign-up.component';
 import { auth } from './firebase/firebase.utils';
 
+const SignOutPop=()=><div><h1>Sign out successfully</h1></div>
 class App extends React.Component {
   constructor(){
     super();
@@ -18,13 +19,16 @@ class App extends React.Component {
 
   componentDidMount() {
     this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+      
       this.setState({ currentUser: user });
+      console.log("currentUser "+this.state.currentUser);
     });
   }
 
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
+  
   render(){
     return (
       <div className="app">
@@ -33,6 +37,7 @@ class App extends React.Component {
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route path='/sign-in' component={SignInSignUp}/>
+          <Route path='/sign-out-pop' component={SignOutPop}/>
         </Switch>
       </div>
     );
