@@ -3,18 +3,19 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom:30px;
-    margin-left:40px;
-    margin-right:40px;
+    //margin-left:40px;
+    //margin-right:40px;
    border-bottom: solid black 1px;
     .options{
         
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         font-weight: bold;
         .option{
-            margin-right: 10px;
-            text-decoration: none;
+           margin-right: 10px;
+           text-decoration: none;
             cursor: pointer;
         }
     }

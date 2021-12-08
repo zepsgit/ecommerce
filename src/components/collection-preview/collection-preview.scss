@@ -8,8 +8,18 @@
     margin-bottom: 25px;
   }
 
-  .preview {
-    display: flex;
-    justify-content: space-between;
+  @media (orientation:landscape) {
+    .preview {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  @media (orientation:portrait) {
+    .preview {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }

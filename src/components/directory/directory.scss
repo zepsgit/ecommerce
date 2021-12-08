@@ -1,7 +1,18 @@
-.directory{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+
+@media (orientation:landscape){
+    .directory{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+}
+@media (orientation:portrait) {
+    .directory{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

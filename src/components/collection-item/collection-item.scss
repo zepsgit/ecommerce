@@ -1,3 +1,4 @@
+@media (orientation:landscape) {
 .collection-item {
   width: 22%;
   display: flex;
@@ -30,3 +31,40 @@
     }
   }
 }
+}
+
+@media (orientation:portrait) {
+  .collection-item {
+    width: 80vw;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    margin:0 auto 30px auto;
+    .image {
+      width: 100%;
+      height: 95%;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 5px;
+    }
+  
+    .collection-footer {
+      width: 100%;
+      height: 5%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+  
+      .name {
+        width: 90%;
+        margin-bottom: 15px;
+      }
+  
+      .price {
+        width: 10%;
+      }
+    }
+  }
+  }
