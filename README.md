@@ -1,2 +1,2 @@
 # homepage
-https://zepsgit.github.io/ecommerce/
+https://zepshoppingsite.netlify.app/
