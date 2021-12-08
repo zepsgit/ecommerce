@@ -5,13 +5,13 @@
     margin-bottom:30px;
     margin-left:40px;
     margin-right:40px;
-    
+   border-bottom: solid black 1px;
     .options{
         
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+        font-weight: bold;
         .option{
             margin-right: 10px;
             text-decoration: none;
