@@ -1,7 +1,7 @@
 .cart-dropdown {
   position: absolute;
   width: 240px;
-  height: 340px;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

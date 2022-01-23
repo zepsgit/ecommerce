@@ -11,6 +11,7 @@ import { onSnapshot } from "firebase/firestore";
 import { Contact } from './components/contact/contact.component';
 import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.action';
+import CheckoutPage from './page/checkout/checkout.component';
 const SignOutPop=()=><div><h1>Sign out successfully</h1></div>
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -46,6 +47,7 @@ class App extends React.Component {
           <Route path='/sign-in' component={SignInSignUp}/>
           <Route path='/sign-out-pop' component={SignOutPop}/>
           <Route path='/contact' component={Contact}/>
+          <Route exact path='/checkout' component={CheckoutPage} />
         </Switch>
       </div>
     );
